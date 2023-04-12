@@ -1,0 +1,83 @@
+.custom-orange-color {
+  color: #ff6e00 !important;
+}
+
+.margin_top-1 {
+  margin-top: 1rem;
+}
+.custom-border-top {
+  border-top: 1px solid #02040e !important;
+}
+.customGemImage {
+  max-width: 75%;
+}
+
+.custom_textbox {
+  width: 80%;
+  background: #02040e;
+  border: none;
+}
+
+.bg_black {
+  background: black !important;
+  border: none;
+  color: white;
+  transition: all 0.3s ease;
+}
+.bg_black:before {
+  background-color: #02040E !important;
+}
+
+.box-shadow {
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem orange);
+}
+
+.btn-custom-three {
+  background: black;
+  align-self: center;
+  align-items: start;
+  color: white;
+  margin-bottom: 0.1rem !important;
+}
+.btn-custom-three::before {
+  background:gray;
+  color: white;
+ 
+}
+
+
+
+
+@media only screen and (max-width: 414px) {
+  .customGemImage {
+    max-width: 50% !important;
+  }
+
+  .CenterTheImage {
+    text-align:center;
+}
+
+}
+
+@media only screen and (max-width: 411px) {
+  .customGemImage {
+    max-width: 50% !important;
+  }
+
+  .CenterTheImage {
+    text-align:center;
+}
+
+}
+
+@media only screen and (max-width: 360px) {
+  .customGemImage {
+    max-width: 45% !important;
+  
+  }
+
+.CenterTheImage {
+    text-align:center;
+}
+  
+}

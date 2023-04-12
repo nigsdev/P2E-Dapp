@@ -1,0 +1,16 @@
+.tdBackground {
+  background: transparent !important;
+}
+
+.imageCss {
+  width: 8%;
+  margin-left: 2rem;
+}
+
+
+@media screen and (max-width: 768px) and (min-width: 700px) {
+  .fontSizeOnIpad {
+    font-size:0.4rem;
+    color:white;
+  }
+}

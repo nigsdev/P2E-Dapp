@@ -1,0 +1,125 @@
+.customGemImage {
+  max-width: 95%;
+}
+
+.imageContainer {
+  position: relative;
+}
+
+.imageContainerTwo {
+  box-shadow: 0 0 10px 5px rgba(249, 105, 14, 1) !important;
+}
+
+.marginLeftSM {
+  margin-left: 0;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.overlayImage {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  right: 0;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.3s ease;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.imageContainer:hover .overlayImage {
+  opacity: 1;
+}
+
+.gem {
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.btnCustom {
+  background: black !important;
+  margin-top: 0rem;
+  margin-bottom: 0;
+  border: none;
+  color: white !important;
+}
+
+.btnCustom a {
+  color: white !important;
+}
+
+.btnCustom::before {
+  background: black !important;
+}
+.btnCustom:hover {
+  background: #02040e !important;
+  border: none;
+}
+
+.marginTop {
+  margin-top: 2rem;
+}
+
+.marginBottom {
+  margin-bottom: 1rem;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .btnCustom {
+    margin-bottom: 34.5px !important;
+    border-radius: 40px !important;
+    width: 98% !important;
+    padding: 4px !important;
+    margin-top: 0.3rem !important;
+  }
+}
+
+
+@media only screen and (max-width: 414px) {
+  .btnCustom {
+    margin-bottom: 34.5px !important;
+    border-radius: 40px !important;
+    width: 98% !important;
+    padding: 4px !important;
+    margin-top: 0.3rem !important;
+  }
+}
+
+
+@media only screen and (max-width: 411px) {
+  .btnCustom {
+    margin-bottom: 34.5px !important;
+    border-radius: 40px !important;
+    width: 98% !important;
+    padding: 4px !important;
+    margin-top: 0.3rem !important;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .btnCustom {
+    margin-bottom: 34.5px !important;
+    border-radius: 40px !important;
+    width: 98% !important;
+    padding: 4px !important;
+    margin-top: 0.3rem !important;
+  }
+
+ 
+}

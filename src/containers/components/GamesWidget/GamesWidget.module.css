@@ -1,0 +1,185 @@
+.box_shadow1 {
+  box-shadow: rgb(245 199 26 / 75%) 0 2.5rem 9.375rem;
+}
+.box_shadow2 {
+  box-shadow: rgb(160 82 45 / 75%) 0 2.5rem 9.375rem;
+}
+.box_shadow3 {
+  box-shadow: rgb(128 128 128 / 75%) 0 2.5rem 9.375rem;
+}
+
+.hoverOnGames {
+  transform: scale(1);
+  transition: all 0.2s ease-in-out;
+  overflow: hidden;
+}
+.hoverOnGames:hover {
+  transform: scale(1.07);
+  cursor: pointer;
+}
+
+.glowonhover {
+  width: 25%;
+
+  height: 45px;
+  margin-left: 0.8rem;
+  display: inline-block;
+  text-align: center;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  color: #ff6e00 !important;
+  background: black;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+}
+
+.marginLeft {
+  margin-left: 6rem;
+}
+
+.glowonhover:before {
+  content: '';
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.glowonhover:active {
+  color: #000;
+}
+
+.glowonhover:active:after {
+  background: transparent;
+}
+
+.glowonhover:hover:before {
+  opacity: 1;
+}
+
+.glowonhover:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .marginLeft {
+    margin-left: 2rem;
+  }
+
+  .glowonhover {
+    width: 40%;
+    font-size: 0.6rem;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+
+   .glowonhover {
+     width: 34%;
+     font-size: 0.3rem;
+     height:25px;
+  }
+
+  
+
+}
+
+@media only screen and (max-width: 540px) {
+  .glowonhover {
+    width: 29%;
+    font-size: 0.7rem;
+  }
+}
+
+
+@media only screen and (max-width: 414px) {
+  .glowonhover {
+    width: 35%;
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 411px) {
+  .glowonhover {
+    width: 35%;
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .glowonhover {
+    width: 35%;
+    font-size: 0.7rem;
+  }
+
+  .marginLeft {
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .glowonhover {
+    width: 35%;
+    font-size: 0.7rem;
+  }
+
+  .marginLeft {
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .marginLeft {
+    margin-left: 2rem;
+    margin-top: 0;
+  }
+
+  .glowonhover {
+    width: 35%;
+    font-size: 0.6rem;
+  }
+}

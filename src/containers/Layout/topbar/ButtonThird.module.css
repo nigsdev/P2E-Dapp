@@ -1,0 +1,67 @@
+.btnCustomThree {
+  background: black !important;
+  border-radius: 2rem;
+  border: none;
+  color: color !important;
+  padding: 8px 23px;
+  font-weight: bold;
+  display: none;
+}
+.btnCustomThree::before {
+  background: #fdad5c !important;
+}
+
+@media only screen and (max-width: 540px) {
+  .btnCustomThree {
+    display: block;
+    margin-right: 24.9rem !important;
+    padding: 2px 19px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .btnCustomThree {
+    display: block;
+    margin-right: 21.5rem !important;
+    padding: 2px 19px;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .btnCustomThree {
+    display: block;
+    margin-right: 17.5rem !important;
+    padding: 2px 19px;
+  }
+}
+
+@media only screen and (max-width: 411px) {
+  .btnCustomThree {
+    display: block;
+    margin-right: 17.2rem !important;
+    padding: 2px 19px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .btnCustomThree {
+    display: block;
+    margin-right: 15.5rem !important;
+    padding: 2px 19px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .btnCustomThree {
+    display: block;
+    margin-right: 14.4rem !important;
+    padding: 2px 19px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .btnCustomThree {
+    display: block;
+    margin-right: 12.4rem !important;
+    padding: 2px 19px;
+  }
+}

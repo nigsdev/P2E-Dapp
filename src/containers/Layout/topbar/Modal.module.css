@@ -1,0 +1,180 @@
+.modalheader {
+  display: flex;
+  justify-content: center;
+  border-bottom: '1px solid #4c4c4c';
+}
+
+.modalheaderTwo {
+  border-bottom: none;
+  padding: 0rem;
+}
+.modalheaderThree {
+  border-bottom: none;
+  padding: 0rem;
+}
+.modalheaderParagraph {
+  font-size: 0.8rem;
+}
+
+.modalheaderThreeParagraph {
+  font-size: 0.8rem;
+  margin-left: 1rem;
+}
+
+.modalbody {
+  border-bottom: 1px solid #4c4c4c;
+  margin-left: -1rem;
+}
+.modalbodyTwo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modalbodythree {
+  border-top: 1px solid #4c4c4c;
+}
+
+.modalbodythreeimage {
+  max-width: 45%;
+}
+
+.modalbodyTwoButtonOne {
+  font-size: 10px;
+  background: #ff6e00 !important;
+  border: none;
+  color: black !important;
+  margin-bottom: 1px;
+}
+
+.modalbodyTwoButtonTwo {
+  font-size: 10px;
+  background: #ff6e00 !important;
+  border: none;
+  color: black !important;
+  margin-bottom: 1px;
+}
+.modalbodyinput {
+  margin-top: 1rem;
+  font-weight: 200;
+  width: 115%;
+  background: #02040e;
+  border: none;
+  color: white;
+}
+
+.connectedToMetaMask {
+  font-weight: 200;
+  margin-left: -8rem !important;
+}
+
+/* Button */
+
+.btncustom {
+  background-color: rgba(10, 10, 10, 0.6) !important;
+  color: white !important;
+  margin-top: -0.5rem;
+  margin-left: 2rem;
+  padding: 0.5rem;
+}
+.btncustom::before {
+  background: #02040e;
+}
+
+@media only screen and (max-width: 540px) {
+  .modal {
+    top: 85px;
+    margin: 0rem 4.6rem;
+  }
+  .modalbodyTwoButtonOne {
+    padding: 0.5rem;
+  }
+  .modalbodyTwoButtonTwo {
+    padding: 0.5rem;
+  }
+  .connectedToMetaMask {
+    font-weight: 200;
+    margin-left: 0rem !important;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .modal {
+    top: 85px;
+    margin: 0rem 1.6rem;
+  }
+  .modalbodyTwoButtonOne {
+    padding: 0.5rem;
+  }
+  .modalbodyTwoButtonTwo {
+    padding: 0.5rem;
+  }
+  .connectedToMetaMask {
+    font-weight: 200;
+    margin-left: 0rem !important;
+  }
+
+  .modalbodyinput {
+    margin-left: -1rem;
+    width: 122%;
+  }
+
+}
+
+@media only screen and (max-width: 411px) {
+  .modal {
+    top: 85px;
+    margin: 0rem 1.6rem;
+  }
+  .modalbodyTwoButtonOne {
+    padding: 0.5rem;
+  }
+  .modalbodyTwoButtonTwo {
+    padding: 0.5rem;
+  }
+
+  .connectedToMetaMask {
+    font-weight: 200;
+    margin-left: 0rem !important;
+  }
+
+  .modalbodyinput {
+    margin-left: -1rem;
+    width: 122%;
+  }
+
+}
+
+@media only screen and (max-width: 360px) {
+  .modal {
+    top: 85px;
+  }
+  .modalbodyinput {
+    margin-left: -1rem;
+  }
+
+  .connectedToMetaMask {
+    font-weight: 200;
+    margin-left: 0rem !important;
+  }
+
+  .modalbodyTwoButtonOne {
+    padding: 0.5rem;
+  }
+  .modalbodyTwoButtonTwo {
+    padding: 0.5rem;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .modalbodyTwoButtonOne {
+    padding: 0.1rem;
+  }
+  .modalbodyTwoButtonTwo {
+    padding: 0.1rem;
+    margin-left: 1rem;
+  }
+
+  .modalheaderThreeParagraph {
+    font-size: 0.5rem;
+  }
+}

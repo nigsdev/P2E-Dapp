@@ -1,0 +1,41 @@
+.customVideo {
+  height: 70vh !important;
+}
+
+@media only screen and (max-width: 1024px) {
+  .customVideo {
+    height: 40vh !important;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .customVideo {
+    height: 40vh !important;
+  }
+
+}
+
+
+@media only screen and (max-width: 414px) {
+  .customVideo {
+    height: 40vh !important;
+  }
+
+}
+
+@media only screen and (max-width: 411px) {
+  .customVideo {
+    height: 40vh !important;
+  }
+
+}
+
+@media only screen and (max-width: 360px) {
+  .customVideo {
+    height: 40vh !important;
+  }
+
+}

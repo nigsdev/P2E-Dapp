@@ -1,0 +1,24 @@
+.margin-top-7 {
+  margin-top: 7rem;
+}
+
+.custom_text-color {
+  color: #ff6e00 !important;
+}
+
+.bg-dark-1 {
+  background-color: #232329;
+}
+
+.shadow {
+  filter: drop-shadow(5px 5px 5px orange);
+}
+
+@media only screen and (max-width: 360px) {
+  .customGemImage {
+    max-width: 45%;
+  }
+  .CenterTheImage {
+      text-align: center !important;
+  }
+}

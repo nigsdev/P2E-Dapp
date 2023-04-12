@@ -1,0 +1,87 @@
+.margin_top-5 {
+  margin-top: 5rem;
+}
+.margin_bottom-2-5 {
+  margin-bottom: 2.5rem;
+}
+
+.custom-text-color {
+  color: #ff6e00 !important;
+}
+
+.box_shadowBlue {
+  box-shadow: rgba(1, 50, 67, 1) 0px 14px 28px, rgba(1, 50, 67, 1) 0px 10px 10px !important;
+}
+
+.heiight {
+  height: 480px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 40%;
+  height: 50%;
+  object-fit: contain;
+}
+
+@media only screen and (max-width: 1024px) {
+  .centerRow {
+    margin-left: -78px;
+  }
+
+ 
+}
+
+@media only screen and (max-width: 768px) {
+  .centerRow {
+    margin-left: -78px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .dashboard_image {
+    width: 13% !important;
+  }
+
+  .poster > div div svg {
+    font-size: 1rem !important;
+  }
+  .centerRow {
+    margin-left: -17px;
+  }
+}
+
+/* @media only screen and (max-width: 500px) {
+  .dashboard_image {
+    margin-top: 7px !important;
+  }
+} */
+
+@media only screen and (max-width: 415px) {
+  .dashboard_image {
+    width: 25% !important;
+  }
+  .poster > div div svg {
+    font-size: 1rem !important;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .dashboard_image {
+    width: 25% !important;
+  }
+
+  .poster > div div svg {
+    font-size: 1rem !important;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .dashboard_image {
+    width: 25% !important;
+  }
+  .poster > div div svg {
+    font-size: 1rem !important;
+  }
+}

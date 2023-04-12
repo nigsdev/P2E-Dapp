@@ -1,0 +1,40 @@
+.footerStyle {
+  width: 102vw;
+  position: relative;
+  left: 48%;
+  right: 48%;
+  padding-bottom: 0;
+  padding-right: 0;
+  margin-left: -50vw;
+  margin-right: -45vw;
+  background-color: black;
+}
+
+.marginTop {
+  margin-top: 10rem;
+}
+
+.bgblack {
+  background: black !important;
+}
+@media only screen and (max-width: 1024px) {
+  .footerStyle {
+    left: 45%;
+    margin-top: 5.5rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .footerStyle {
+    left: 45%;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .footerStyle {
+    left: 47%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .footerStyle {
+    left: 50%;
+  }
+}

@@ -1,0 +1,130 @@
+.btnCustom {
+  background: #ff6e00 !important;
+  border-radius: 2rem;
+  border: none;
+  color: black !important;
+  padding: 8px 23px;
+}
+
+.btnCustom::before {
+  background: #fdad5c !important;
+}
+
+.btnCustomDark {
+  background-color: rgba(10, 10, 10, 0.6) !important;
+  border-radius: 2rem;
+  border: none;
+
+  color: white !important;
+  padding: 8px 23px;
+}
+.btnCustomDark::before {
+  background-color: gray !important;
+}
+
+.btncustomMarginTop {
+  margin-top: 1.3rem;
+}
+
+.btncustomMarginTwo {
+  margin-top: 1.3rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .bothButton {
+    margin-right: 30px !important;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .btncustomMarginTop {
+    margin-top: -3rem;
+  }
+
+  .btncustomMarginTwo {
+    margin-top: -3rem;
+  }
+
+  .bothButton {
+    margin-right: 90px !important;
+  }
+}
+@media only screen and (max-width: 500px) {
+  
+  .bothButton {
+    margin-right: 63px !important;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .btncustomMarginTop {
+    margin-top: -3rem;
+  }
+
+  .btncustomMarginTwo {
+    margin-top: -3rem;
+  }
+
+  .bothButton {
+    margin-right: 35px !important;
+  }
+}
+
+@media only screen and (max-width: 411px) {
+  .btncustomMarginTop {
+    margin-top: -3rem;
+  }
+
+  .bothButton {
+    margin-right: 30px !important;
+  }
+
+  .btncustomMarginTwo {
+    margin-top: -3rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .btncustomMarginTop {
+    margin-top: -3rem;
+  }
+
+  .btncustomMarginTwo {
+    margin-top: -3rem;
+  }
+
+  .bothButton {
+    margin-right: 16px !important;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .btncustomMarginTop {
+    margin-top: -3rem;
+  }
+
+  .btncustomMarginTwo {
+    margin-top: -3rem;
+  }
+
+  .bothButton {
+    margin-right: 9px !important;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .btncustomMarginTop {
+    margin-right: 5.5rem !important;
+    margin-top: -3rem;
+  }
+  .topbar_right-2 {
+    display: flex;
+  }
+  .btncustomMarginTwo {
+    margin-top: -3rem;
+    
+  }
+
+  .bothButton {
+    margin-right: -7px !important;
+  }
+}

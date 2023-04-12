@@ -1,0 +1,92 @@
+.customVideo {
+  height: 70vh !important;
+}
+
+.boxShadowForGame {
+  box-shadow: rgb(233 212 96) 0 2.5rem 9.375rem;
+}
+
+.customTitle {
+  margin-left: 1.8rem;
+  margin-bottom: 0.5rem;
+  font-size: 20px;
+  margin-top: 2rem;
+  font-weight: bold;
+}
+
+.upDownIcon {
+  color: white;
+  font-size: 1.5rem;
+}
+
+
+.playIcon {
+  color: rgb(255, 255, 255);
+
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.playIcon:hover {
+  background: #1d1c1c;
+}
+.stopIcon {
+  color: rgb(255, 255, 255);
+margin-left: 0.5rem ;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.stopIcon:hover {
+  background: #1d1c1c;
+}
+
+.fullScreenIcon {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: 0.2s;
+  margin-left: 3rem;
+}
+.fullScreenIcon:hover {
+  background: #1d1c1c;
+}
+
+.shareIcon {
+  color: rgb(255, 255, 255);
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.shareIcon:hover {
+  background: #1d1c1c;
+}
+
+@media only screen and (max-width: 1024px) {
+  .customVideo {
+    height: 40vh !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .customVideo {
+    height: 40vh !important;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .customVideo {
+    height: 40vh !important;
+  }
+}
+
+@media only screen and (max-width: 411px) {
+  .customVideo {
+    height: 40vh !important;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .customVideo {
+    height: 40vh !important;
+  }
+}
